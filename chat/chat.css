@@ -1,0 +1,46 @@
+.left-panel {
+
+    height: 100vh;
+    width: 20vw;
+    background-color: rgb(250, 250, 250)
+}
+
+.central-panel {
+
+    height: 100vh;
+    width: 80vw;
+    background-color: rgb(215, 215, 224);
+}
+
+.container {
+    display: flex;
+}
+
+.left-panel {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.menu-lateral-superior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-lateral-inferior {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.central-panel
+{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
