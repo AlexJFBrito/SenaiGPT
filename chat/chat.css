@@ -38,9 +38,48 @@
 
 }
 
-.central-panel
-{
+.central-panel {
     display: flex;
-align-items: center;
-justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.textos {
+
+    display: flex;
+  
+    text-align: center;
+
+
+}
+
+.top{
+    flex-direction: column;
+    display: flex;
+    border-radius: 25px;
+    border: none;
+    width: 240px
+}
+
+.bottom {
+
+    flex-direction: column;
+    display: flex;
+
+}
+
+.btn-chat
+{
+    
+    display: flex; /* Usa o modelo Flexbox para organizar os elementos */
+    flex-direction: row; /* Organiza os elementos em linhas */
+    align-items: center; /* Centraliza verticalmente */ 
+    
+
+}
+
+.btn-chat img{
+    margin-right: 14px;
+}
+
